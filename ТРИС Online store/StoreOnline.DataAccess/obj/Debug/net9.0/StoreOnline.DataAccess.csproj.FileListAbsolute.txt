@@ -1,0 +1,17 @@
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.DataAccess.deps.json
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.DataAccess.runtimeconfig.json
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.DataAccess.dll
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.DataAccess.pdb
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.AssemblyInfo.cs
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.dll
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\refint\StoreOnline.DataAccess.dll
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.pdb
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnline.DataAccess.genruntimeconfig.cache
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\ref\StoreOnline.DataAccess.dll
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.Core.dll
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\bin\Debug\net9.0\StoreOnline.Core.pdb
+C:\Users\Artem\source\repos\ТРИС Online store\StoreOnline.DataAccess\obj\Debug\net9.0\StoreOnl.8F3E9CB7.Up2Date
