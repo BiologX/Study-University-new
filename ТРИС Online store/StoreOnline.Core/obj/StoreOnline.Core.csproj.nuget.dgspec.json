@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artem\\source\\repos\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj": {}
+    "C:\\Users\\Artem\\Desktop\\Study-University-new\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artem\\source\\repos\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj": {
+    "C:\\Users\\Artem\\Desktop\\Study-University-new\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artem\\source\\repos\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Desktop\\Study-University-new\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj",
         "projectName": "StoreOnline.Core",
-        "projectPath": "C:\\Users\\Artem\\source\\repos\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj",
+        "projectPath": "C:\\Users\\Artem\\Desktop\\Study-University-new\\ТРИС Online store\\StoreOnline.Core\\StoreOnline.Core.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artem\\source\\repos\\ТРИС Online store\\StoreOnline.Core\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Desktop\\Study-University-new\\ТРИС Online store\\StoreOnline.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
