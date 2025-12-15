@@ -50,5 +50,13 @@ namespace StoreOnline.API.Controllers
 
             return StatusCode(201, response);
         }
+
+        [HttpDelete]
+        public async Task<ActionResult<Guid>> DeleteUser([FromBody] Guid id)
+        {
+            var response = await usersService.DeleteUser(id);
+
+            return StatusCode(201, response);
+        }
     }
 }
