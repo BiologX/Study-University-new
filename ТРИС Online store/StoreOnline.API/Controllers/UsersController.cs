@@ -30,5 +30,25 @@ namespace StoreOnline.API.Controllers
 
             return StatusCode(201, response);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<Guid>> GetUsers()
+        {
+            var response = await usersService.GetAllUsers();
+
+            return StatusCode(201, response);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<Guid>> UpdateUser([FromBody] UpdateUserRequest request)
+        {
+            var response = await usersService.UpdateUser(
+                request.Id,
+                request.Name,
+                request.Login,
+                request.Password);
+
+            return StatusCode(201, response);
+        }
     }
 }

@@ -15,18 +15,59 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "StoreOnline.API.Contracts.Users.Response.CreateUserResponse",
+        "Type": "System.Guid",
         "MediaTypes": [
-          "application/json"
+          "text/plain",
+          "application/json",
+          "text/json"
         ],
-        "StatusCode": 201
-      },
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StoreOnline.API.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.Guid",
         "MediaTypes": [
-          "application/json"
+          "text/plain",
+          "application/json",
+          "text/json"
         ],
-        "StatusCode": 400
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StoreOnline.API.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StoreOnline.API.Contracts.Users.Request.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   }
