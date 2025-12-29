@@ -9,7 +9,7 @@ namespace StoreOnline.DataAccess.Configurations
         public void Configure(EntityTypeBuilder<DeliveryEntity> builder)
         {
             builder.HasKey(d => d.Id);
-            builder.Property(d => d.Adress)
+            builder.Property(d => d.Address)
                 .IsRequired()
                 .HasMaxLength(255);
             builder.Property(d => d.status)
