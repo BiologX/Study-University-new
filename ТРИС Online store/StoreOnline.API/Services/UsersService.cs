@@ -23,9 +23,9 @@ namespace StoreOnline.API.Services
             return await usersRepository.Get();
         }
 
-        public async Task<Guid> UpdateUser(Guid id, string name, string login, string password)
+        public async Task<Guid> UpdateUser(User user)
         {
-            return await usersRepository.Update(id, name, login, password);
+            return await usersRepository.Update(user);
         }
     }
 }

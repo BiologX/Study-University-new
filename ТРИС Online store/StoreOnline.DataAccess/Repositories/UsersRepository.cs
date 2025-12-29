@@ -37,16 +37,16 @@ namespace StoreOnline.DataAccess.Repositories
             return users;
         }
 
-        public async Task<Guid> Update(Guid id, string name, string login, string passwordHash)
+        public async Task<Guid> Update(User user)
         {
             await context.Users 
-                .Where(u => u.Id == id)
+                .Where(u => u.Id == user.Id)
                 .ExecuteUpdateAsync(s => s
-                .SetProperty(u => u.Name, u => name)
-                .SetProperty(u => u.Login, u => login)
-                .SetProperty(u => u.PasswordHash, u => passwordHash));
+                .SetProperty(u => u.Name, u => user.Name)
+                .SetProperty(u => u.Login, u => user.Login)
+                .SetProperty(u => u.PasswordHash, u => user.PasswordHash));
 
-            return id;
+            return user.Id;
         }
 
         public async Task<Guid> Delete(Guid id)

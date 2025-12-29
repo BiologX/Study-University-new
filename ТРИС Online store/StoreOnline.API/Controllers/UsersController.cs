@@ -42,11 +42,14 @@ namespace StoreOnline.API.Controllers
         [HttpPut]
         public async Task<ActionResult<Guid>> UpdateUser([FromBody] UpdateUserRequest request)
         {
-            var response = await usersService.UpdateUser(
+            var user = Core.Models.User.Create(
                 request.Id,
                 request.Name,
                 request.Login,
-                request.Password);
+                request.Password
+                );
+
+            var response = await usersService.UpdateUser(user);
 
             return StatusCode(201, response);
         }
