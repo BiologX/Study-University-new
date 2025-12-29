@@ -18,7 +18,7 @@ namespace StoreOnline.API.Services
             return await categoriesRepository.Delete(id);
         }
 
-        public async Task<List<Category>> GetAllCategory()
+        public async Task<List<Category>> GetAllCategories()
         {
             return await categoriesRepository.Get();
         }

@@ -6,7 +6,7 @@ namespace StoreOnline.Core.Abstractions.Services
     {
         Task<Guid> CreateCategory(Category user);
         Task<Guid> DeleteCategory(Guid id);
-        Task<List<Category>> GetAllCategory();
+        Task<List<Category>> GetAllCategories();
         Task<Guid> UpdateCategory(Category user);
     }
 }
