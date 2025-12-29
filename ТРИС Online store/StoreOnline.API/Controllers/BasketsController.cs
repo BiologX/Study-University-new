@@ -36,14 +36,7 @@ namespace StoreOnline.API.Controllers
         [HttpPut]
         public async Task<ActionResult<Guid>> UpdateBasketItem([FromBody] Basket request)
         {
-            var basket = Basket.Create(
-                request.Id,
-                request.Quantity,
-                request.UserId,
-                request.ProductId
-            );
-
-            var response = await basketsService.UpdateBasketItem(basket);
+            var response = await basketsService.UpdateBasketItem(request);
 
             return StatusCode(200, response);
         }

@@ -36,14 +36,7 @@ namespace StoreOnline.API.Controllers
         [HttpPut]
         public async Task<ActionResult<Guid>> UpdatePayment([FromBody] Payment request)
         {
-            var payment = Payment.Create(
-                request.Id,
-                request.PaymentMethod,
-                request.CreatedDate,
-                request.OrderId
-            );
-
-            var response = await paymentsService.UpdatePayment(payment);
+            var response = await paymentsService.UpdatePayment(request);
 
             return StatusCode(200, response);
         }

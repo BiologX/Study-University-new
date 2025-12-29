@@ -36,17 +36,7 @@ namespace StoreOnline.API.Controllers
         [HttpPut]
         public async Task<ActionResult<Guid>> UpdateOrder([FromBody] Order request)
         {
-            var order = Order.Create(
-                request.Id,
-                request.Quantity,
-                request.TotalPrice,
-                request.Status,
-                request.CreatedDate,
-                request.ProductId,
-                request.UserId
-            );
-
-            var response = await ordersService.UpdateOrder(order);
+            var response = await ordersService.UpdateOrder(request);
 
             return StatusCode(200, response);
         }

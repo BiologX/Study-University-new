@@ -18,14 +18,9 @@ namespace StoreOnline.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Guid>> CreateUser([FromBody] User request)
         {
-            var user = Core.Models.User.Create(
-                Guid.NewGuid(),
-                request.Name,
-                request.Login,
-                request.PasswordHash
-                );
-
-            var response = await usersService.CreateUser(user);
+            request.Id = Guid.NewGuid();
+            
+            var response = await usersService.CreateUser(request);
 
             return StatusCode(201, response);
         }
@@ -41,14 +36,7 @@ namespace StoreOnline.API.Controllers
         [HttpPut]
         public async Task<ActionResult<Guid>> UpdateUser([FromBody] User request)
         {
-            var user = Core.Models.User.Create(
-                request.Id,
-                request.Name,
-                request.Login,
-                request.PasswordHash
-                );
-
-            var response = await usersService.UpdateUser(user);
+            var response = await usersService.UpdateUser(request);
 
             return StatusCode(201, response);
         }
