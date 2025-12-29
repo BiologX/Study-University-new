@@ -1,6 +1,6 @@
 ﻿using StoreOnline.Core.Abstractions.Repositories;
 using StoreOnline.Core.Abstractions.Services;
-using StoreOnline.Core.Models;
+using StoreOnline.Core.DTO;
 
 namespace StoreOnline.API.Services
 {

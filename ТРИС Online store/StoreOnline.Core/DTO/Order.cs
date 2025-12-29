@@ -1,4 +1,4 @@
-﻿namespace StoreOnline.Core.Models
+﻿namespace StoreOnline.Core.DTO
 {
     public class Order
     {

@@ -1,4 +1,4 @@
-﻿using StoreOnline.Core.Models;
+﻿using StoreOnline.Core.DTO;
 
 namespace StoreOnline.Core.Abstractions.Repositories
 {

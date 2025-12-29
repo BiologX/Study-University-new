@@ -255,7 +255,6 @@ C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.AP
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.AssemblyInfoInputs.cache
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.AssemblyInfo.cs
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.csproj.CoreCompileInputs.cache
-C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\StoreOnline.API.sourcelink.json
 C:\Users\Artem\Desktop\Study-University-new\ТРИС Online store\StoreOnline.API\obj\Debug\net9.0\rjimswa.dswa.cache.json

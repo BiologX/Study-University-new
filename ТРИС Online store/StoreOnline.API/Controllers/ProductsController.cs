@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StoreOnline.Core.Abstractions.Services;
-using StoreOnline.Core.Models;
+using StoreOnline.Core.DTO;
 
 namespace StoreOnline.API.Controllers
 {

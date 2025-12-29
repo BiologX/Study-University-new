@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StoreOnline.Core.Abstractions.Repositories;
-using StoreOnline.Core.Models;
+using StoreOnline.Core.DTO;
 using StoreOnline.DataAccess.Entities;
 
 namespace StoreOnline.DataAccess.Repositories

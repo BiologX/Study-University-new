@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using StoreOnline.Core.Abstractions.Services;
-using StoreOnline.Core.Models;
+using StoreOnline.Core.DTO.Requests;
+using StoreOnline.Core.DTO;
 
 namespace StoreOnline.API.Controllers
 {
@@ -16,11 +17,16 @@ namespace StoreOnline.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreateUser([FromBody] User request)
+        public async Task<ActionResult<Guid>> CreateUser([FromBody] CreateUserRequest request)
         {
-            request.Id = Guid.NewGuid();
-            
-            var response = await usersService.CreateUser(request);
+            var user = Core.DTO.User.Create(
+                Guid.NewGuid(),
+                request.Name,
+                request.Login,
+                request.PasswordHash);
+
+
+            var response = await usersService.CreateUser(user);
 
             return StatusCode(201, response);
         }

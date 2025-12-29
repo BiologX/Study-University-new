@@ -1,4 +1,4 @@
-﻿using StoreOnline.Core.Models;
+﻿using StoreOnline.Core.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;

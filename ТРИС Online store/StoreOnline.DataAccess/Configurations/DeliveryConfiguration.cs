@@ -12,7 +12,7 @@ namespace StoreOnline.DataAccess.Configurations
             builder.Property(d => d.Address)
                 .IsRequired()
                 .HasMaxLength(255);
-            builder.Property(d => d.status)
+            builder.Property(d => d.Status)
                 .IsRequired()
                 .HasMaxLength(20);
             builder.Property(d => d.CreatedDate)
