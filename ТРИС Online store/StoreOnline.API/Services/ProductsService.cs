@@ -1,7 +1,8 @@
 ﻿using StoreOnline.Core.Abstractions.Repositories;
+using StoreOnline.Core.Abstractions.Services;
 using StoreOnline.Core.Models;
 
-namespace StoreOnline.Core.Abstractions.Services
+namespace StoreOnline.API.Services
 {
     public class ProductsService(IProductsRepository productsRepository) : IProductsService
     {
