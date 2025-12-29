@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using StoreOnline.API.Contracts.Users.Request;
-using StoreOnline.API.Contracts.Users.Response;
 using StoreOnline.Core.Abstractions.Services;
+using StoreOnline.Core.Models;
 
 namespace StoreOnline.API.Controllers
 {
@@ -17,13 +16,13 @@ namespace StoreOnline.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreateUser([FromBody] CreateUserRequest request)
+        public async Task<ActionResult<Guid>> CreateUser([FromBody] User request)
         {
             var user = Core.Models.User.Create(
                 Guid.NewGuid(),
                 request.Name,
                 request.Login,
-                request.Password
+                request.PasswordHash
                 );
 
             var response = await usersService.CreateUser(user);
@@ -40,13 +39,13 @@ namespace StoreOnline.API.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult<Guid>> UpdateUser([FromBody] UpdateUserRequest request)
+        public async Task<ActionResult<Guid>> UpdateUser([FromBody] User request)
         {
             var user = Core.Models.User.Create(
                 request.Id,
                 request.Name,
                 request.Login,
-                request.Password
+                request.PasswordHash
                 );
 
             var response = await usersService.UpdateUser(user);
