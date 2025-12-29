@@ -4,7 +4,7 @@ using StoreOnline.Core.Models;
 
 namespace StoreOnline.API.Services
 {
-    public class CategoryService(ICategoriesRepository categoriesRepository) : ICategoriesService
+    public class CategoriesService(ICategoriesRepository categoriesRepository) : ICategoriesService
     {
         private readonly ICategoriesRepository categoriesRepository = categoriesRepository;
 

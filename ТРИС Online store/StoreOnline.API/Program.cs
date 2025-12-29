@@ -17,7 +17,20 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+builder.Services.AddScoped<IProductsRepository, ProductsRepository>();
+builder.Services.AddScoped<IOrdersRepository, OrdersRepository>();
+builder.Services.AddScoped<IPaymentsRepository, PaymentsRepository>();
+builder.Services.AddScoped<IDeliveriesRepository, DeliveriesRepository>();
+builder.Services.AddScoped<IBasketsRepository, BasketsRepository>();
+builder.Services.AddScoped<ICategoriesRepository, CategoriesRepository>();
+
 builder.Services.AddScoped<IUsersService, UsersService>();
+builder.Services.AddScoped<IProductsService, ProductsService>();
+builder.Services.AddScoped<IOrdersService, OrdersService>();
+builder.Services.AddScoped<IPaymentsService, PaymentsService>();
+builder.Services.AddScoped<IDeliveriesService, DeliveriesService>();
+builder.Services.AddScoped<IBasketsService, BasketsService>();
+builder.Services.AddScoped<ICategoriesService, CategoriesService>();
 
 var app = builder.Build();
 
